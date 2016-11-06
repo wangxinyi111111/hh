@@ -18,7 +18,7 @@ public class EchoServlet extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		out.println("Ett改变了 : " + request.getParameter("msg"));
+		out.println("1Ett改变了真的 : " + request.getParameter("msg"));
 	}
 
 	public void doPost(HttpServletRequest request, HttpServletResponse response)
